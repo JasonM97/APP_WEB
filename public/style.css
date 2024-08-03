@@ -35,27 +35,27 @@ justify-content: space-evenly;
 background-color: black;
 color: white;
 text-decoration: none;
-padding: 10px 15px;
+padding: 10px 10px 10px 0px;
 display: flex;
 }
 
 /* COLOR DE SOMBREADO DE LAS PESTAÑAS*/ 
-.nav li :hover {
+.nav ul li :hover{
 background-color: gray;
-
-}
-
-.nav > li {
-float: left;
 }
 
 .nav li ul {
 display: none;
-position: absolute;
-min-width: 140px;
 }
 
-.nav li :hover > ul {
-display: block;
+.nav ul li:hover ul.submenu{
+    display: block;
+    position: absolute;
+}
+ul.submenu{
+    display: flex;
+    width: auto;
+    margin: 0;
+    padding: 0px;
 }
 
