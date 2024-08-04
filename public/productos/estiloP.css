@@ -1,0 +1,117 @@
+
+body {
+    position: relative;
+    height: 120%;
+    
+}
+
+body {
+    background-color: white;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 14px;
+    color: black;
+    margin: 50px;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px 0 50px 0;
+}
+
+.swiper-slide {
+    width: 400px;
+    height: 600px;
+    background-color: #45B39D ;
+    box-shadow: 0 0 20px rgba(0 ,0 , 0, 0.4);
+    padding: 40px ;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+ font-size: 20px;
+ color: burlywood;
+}
+
+.icons img{
+    width: 100px;
+
+}
+ 
+.product-content {
+ display: flex;
+ justify-content: space-between;
+}
+
+.product-txt {
+    flex-basis: 40%;
+    text-align: left ;
+}
+
+/* ESTILO DEL PRECIO DEL PRODUCTO*/
+.product-txt span {
+    font-size: 25px;
+    color: yellow;
+    font-weight: bold ;
+}
+
+/* ESTILO DEL TITULO DEL PRODUCTO*/
+.product-txt h3 {
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    text-transform: uppercase;
+}
+
+/* ESTILO DEL LA DESCRIÇION  DEL PRODUCTO*/
+
+.product-txt p {
+    font-size: 12px;
+    color: white;
+}
+
+
+.product-img {
+    flex-basis: 20%;
+    text-align: center;
+    position: relative;
+}
+
+.product-img img {
+    padding: 20px;
+    padding-top: 0px;
+    width: 80%;
+    height: 80%;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+/* ESTILO BOTON COMPRA*/
+.btn-1 {
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid yellow;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    background: ;
+    margin-top: 50 px;
+}
+
+/* TITULO DE OFERTA*/
+.titulo2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 30px;
+    color: mediumorchid;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 00 5px blue;
+    }
+ 
