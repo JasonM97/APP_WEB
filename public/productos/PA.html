@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>MASCOTAS/PA</title>
+  <title>MASCOTAS/PL</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link href="../menu/style.css" rel="stylesheet" type="text/css" />
   <link href="estiloP.css" rel="stylesheet" type="text/css" />
 </head>
@@ -28,13 +30,13 @@
               <!-- ITEM SERVICIOS -->
                <li><a href=""> SERVICIOS </a> 
                   <ul class="submenu"> <!-- Desplegue de los productos-->
-                    <li> <a href="../serviciso/SB.html"> Baño y Peluqueria </a></li>
-                    <li> <a href="../serviciso/SH.html"> Hospedaje y Guarderia </a></li> 
+                       <li> <a href="../serviciso/SB.html"> Baño y Peluqueria </a></li>
+                       <li> <a href="../serviciso/SH.html"> Hospedaje y Guarderia </a></li> 
                   </ul>
                </li>
         
               <!-- ITEM DE CONTACTO -->
-               <li><a href=""> CONTACTO </a> </li>
+               <li><a href="Contacto.html"> CONTACTO </a> </li>
         
             </ul> <!-- Final clase menu-->
         </section>
@@ -42,11 +44,170 @@
 
   </header> <!-- Final del Menu -->
 
-  <div>
+ <!-- ---------------------- PROGRAMACIODN DE LOS PRODUCTOS ------------ --> 
+    
+    <div class="parrPS">    
+          <img src="imagen/gato.png" width="660" height="500">
 
-      
- <p> ALIMENTACION</p>
+          <p>En PET DREAMS, entendemos que  la higiene animal es fundamental para la salud y bienestar de las mascotas. La limpieza regular previene enfermedades, mejora la comodidad de los animales y protege a las familias de infecciones. Ven y descubre cómo nuestros servicios de higiene pueden mejorar la vida de tus mascotas y mantener tu hogar más limpio y seguro.</p>
+    </div>
+
+    <div class="titulo2">
+       
+        <h2> TE OFRECEMOS ALGUNOS DE LOS PROUDUCTOS: </h2>
+
+    </div>
+
+  <!-- ----------------------------------DISEÑO DEL PRODUCTO ----------------------------------- -->
+    <div class="swiper mySwiper">
+
+         <div class="swiper-wrapper ">
+
+
+            <!-- PRODUCTO 1 -->
+            <div class="swiper-slide">
+
+
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="imagen/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i> 
+                </div> <!-- Cierre icono -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$95</span>
+                        <h3>SHAMPO</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestiae, est, delectus nisi veniam aperiam, beatae placeat sunt voluptatum provident dolor quidem! Odit odio minus molestiae. Mollitia, nesciunt accusantium. Voluptas?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product-img">
+                    <img src="imagen/Lshampoo.png" alt="">
+                </div>
+
+                <div class="quantity-selector">
+                    <button class="decrease" onclick="disminuirNumeroDeSeleccion(this)">-</button>
+                    <input type="number" class="cantidad" value="1" min="1">
+                    <button class="increase" onclick="aumentarNumeroDeSeleccion(this)">+</button>
+                </div>
+                
+
+                <a href="#" class="btn-1"> COMPRAR</a>
+
+            </div>
+   
+            
+            <!-- PRODUCTO 2 -->
+            <div class="swiper-slide">
+
+
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="imagen/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i> 
+                </div> <!-- Cierre icono -->
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>$95</span>
+                        <h3>SHAMPO</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam esse illo perspiciatis asperiores vero beatae repellendus assumenda cumque minus, architecto earum consequuntur doloribus provident labore laborum dicta cum, cupiditate ex. </p>
+                        
+                    </div>
+                </div>
+
+                <div class="product-img">
+                    <img src="imagen/Lshampoo.png" >
+                </div>
+
+                <div class="quantity-selector">
+                    <button class="decrease" onclick="disminuirNumeroDeSeleccion(this)">-</button>
+                    <input type="number" class="cantidad" value="1" min="1">
+                    <button class="increase" onclick="aumentarNumeroDeSeleccion(this)">+</button>
+                </div>
+
+                <a href="#" class="btn-1"> COMPRAR</a>
+
+            </div>
+
+            <!-- PRODUCTO 3 -->
+            <div class="swiper-slide">
+
+
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="imagen/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i> 
+                </div> <!-- Cierre icono -->
+                <div class="product-content" >
+                    <div class="product-txt">
+                        <span>$95</span>
+                        <h3>SHAMPO</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sunt dolorum culpa sit provident. Ratione earum doloribus impedit, laboriosam autem in ex quis suscipit unde dolores tenetur magni, soluta iste!</p>
+                    </div>
+                </div>
+
+                <div class="product-img">
+                    <img src="imagen/lshampoo.png" >
+                </div>
+
+                <div class="quantity-selector">
+                    <button class="decrease" onclick="disminuirNumeroDeSeleccion(this)">-</button>
+                    <input type="number" class="cantidad" value="1" min="1">
+                    <button class="increase" onclick="aumentarNumeroDeSeleccion(this)">+</button>
+                </div>
+
+                <a href="#" class="btn-1"> COMPRAR</a>
+
+            </div>
+
+
+         </div><!-- Cierre 2-->
+         
+
+    </div><!-- Cierre 1-->
+
+   
+<!--    https://www.youtube.com/watch?v=AuK-iufDISc    -->
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <script>
+       var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: true,
+
+        coverflowEffect: {
+            depth: 500,
+            modifier: 1,
+            slidesShadows: true,
+            rotate: 0,
+            stretch:0
+        }
 
 
 
-  </div>
+       })
+
+
+   </script>
+
+
+
+   <footer>
+    <center>
+        <img src="imagen/mascotaspie.png" width="500">
+    </center>
+   </footer>
+
+
+  <script src="PL.js"></script>
+
+
+</body>
+
+</html>

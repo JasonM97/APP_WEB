@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../menu/style.css" rel="stylesheet" type="text/css" />
+    <link href="ContactoStyle.css" rel="stylesheet" type="text/css" />
+    <title> Contáctanos </title>
+</head>
+<body>
+    <!-- MENU DE LA PAGINA WEB-->
+    <header class="header">
+        <section class ="nav">
+            <ul >
+                <li><a href="../menu/index.html"> NOSOTROS </a> </li>
+
+               <!-- ITEM DE LOS PRODUCTOS-->
+               <li><a href=""> PRODUCTOS </a> 
+                   <ul class="submenu"> <!-- Desplegue de los productos-->
+                        <li> <a href="PL.html"> Limpieza </a></li>
+                        <li> <a href="PA.html"> Alimentacion </a></li>
+                   </ul>
+              </li>
+        
+              <!-- ITEM SERVICIOS -->
+               <li><a href=""> SERVICIOS </a> 
+                  <ul class="submenu"> <!-- Desplegue de los productos-->
+                       <li> <a href="../serviciso/SB.html"> Baño y Peluqueria </a></li>
+                       <li> <a href="../serviciso/SH.html"> Hospedaje y Guarderia </a></li> 
+                  </ul>
+               </li>
+        
+              <!-- ITEM DE CONTACTO -->
+               <li><a href="Contacto.html"> CONTACTO </a> </li>
+        
+            </ul> <!-- Final clase menu-->
+        </section>
+    </header> <!-- Final del Menu -->
+
+    <div class="container">
+        <h2>Contáctanos</h2>
+        <form action="http://localhost:3000/submit-form" method="post">
+            <div class="input-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div class="input-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>

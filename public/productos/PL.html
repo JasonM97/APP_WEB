@@ -36,7 +36,7 @@
                </li>
         
               <!-- ITEM DE CONTACTO -->
-               <li><a href=""> CONTACTO </a> </li>
+               <li><a href="Contacto.html"> CONTACTO </a> </li>
         
             </ul> <!-- Final clase menu-->
         </section>
@@ -46,15 +46,10 @@
 
  <!-- ---------------------- PROGRAMACIODN DE LOS PRODUCTOS ------------ --> 
     
-    <div class="parrPS">
-    
-         <ul>
+    <div class="parrPS">    
           <img src="imagen/gato.png" width="660" height="500">
 
           <p>En PET DREAMS, entendemos que  la higiene animal es fundamental para la salud y bienestar de las mascotas. La limpieza regular previene enfermedades, mejora la comodidad de los animales y protege a las familias de infecciones. Ven y descubre cómo nuestros servicios de higiene pueden mejorar la vida de tus mascotas y mantener tu hogar más limpio y seguro.</p>
-          
-         </ul>
-
     </div>
 
     <div class="titulo2">
@@ -82,15 +77,21 @@
                     <div class="product-txt">
                         <span>$95</span>
                         <h3>SHAMPO</h3>
-                        <p>El jabón CanAmor Insecticida es ideal para </p>
-                        
-                       
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et molestiae, est, delectus nisi veniam aperiam, beatae placeat sunt voluptatum provident dolor quidem! Odit odio minus molestiae. Mollitia, nesciunt accusantium. Voluptas?
+                        </p>
                     </div>
                 </div>
 
                 <div class="product-img">
-                    <img src="imagen/shampoo.png" >
+                    <img src="imagen/Lshampoo.png" alt="">
                 </div>
+
+                <div class="quantity-selector">
+                    <button class="decrease" onclick="disminuirNumeroDeSeleccion(this)">-</button>
+                    <input type="number" class="cantidad" value="1" min="1">
+                    <button class="increase" onclick="aumentarNumeroDeSeleccion(this)">+</button>
+                </div>
+                
 
                 <a href="#" class="btn-1"> COMPRAR</a>
 
@@ -110,14 +111,19 @@
                     <div class="product-txt">
                         <span>$95</span>
                         <h3>SHAMPO</h3>
-                        <p>El jabón CanAmor Insecticida es ideal para </p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam esse illo perspiciatis asperiores vero beatae repellendus assumenda cumque minus, architecto earum consequuntur doloribus provident labore laborum dicta cum, cupiditate ex. </p>
                         
-                       
                     </div>
                 </div>
 
                 <div class="product-img">
-                    <img src="imagen/shampoo.png" >
+                    <img src="imagen/Lshampoo.png" >
+                </div>
+
+                <div class="quantity-selector">
+                    <button class="decrease" onclick="disminuirNumeroDeSeleccion(this)">-</button>
+                    <input type="number" class="cantidad" value="1" min="1">
+                    <button class="increase" onclick="aumentarNumeroDeSeleccion(this)">+</button>
                 </div>
 
                 <a href="#" class="btn-1"> COMPRAR</a>
@@ -133,18 +139,22 @@
                     <img src="imagen/logo.png" alt="">
                     <i class="fa-regular fa-heart"></i> 
                 </div> <!-- Cierre icono -->
-                <div class="product-content">
+                <div class="product-content" >
                     <div class="product-txt">
                         <span>$95</span>
                         <h3>SHAMPO</h3>
-                        <p>El jabón CanAmor Insecticida es ideal para </p>
-                        
-                       
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sunt dolorum culpa sit provident. Ratione earum doloribus impedit, laboriosam autem in ex quis suscipit unde dolores tenetur magni, soluta iste!</p>
                     </div>
                 </div>
 
                 <div class="product-img">
-                    <img src="imagen/shampoo.png" >
+                    <img src="imagen/lshampoo.png" >
+                </div>
+
+                <div class="quantity-selector">
+                    <button class="decrease" onclick="disminuirNumeroDeSeleccion(this)">-</button>
+                    <input type="number" class="cantidad" value="1" min="1">
+                    <button class="increase" onclick="aumentarNumeroDeSeleccion(this)">+</button>
                 </div>
 
                 <a href="#" class="btn-1"> COMPRAR</a>
@@ -187,11 +197,15 @@
    </script>
 
 
+
    <footer>
     <center>
         <img src="imagen/mascotaspie.png" width="500">
     </center>
    </footer>
+
+
+  <script src="PL.js"></script>
 
 
 </body>
