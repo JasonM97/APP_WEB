@@ -57,15 +57,17 @@ background-color: rgb(197, 153, 238);
 display: none;
 }
 
+
+
 /* PARA DESGLOSAR EL SUB MENU DE LAS PESTAÑAS*/ 
 .nav ul li:hover ul.submenu{
     display: block;
     position: absolute;
-
-    
-   
+    white-space: nowrap;
+    min-width: auto;
+    width: auto;
 }
-ul.submenu{
+ul .submenu{
     display: flex;
     width: 10%;
     margin: 0px;
@@ -73,17 +75,48 @@ ul.submenu{
 }
 
 /* MODIFICACION DEL PARRAFO*/ 
-.parr{
-    color: black;
-    font-size: 50px;
-    text-align: justify;
-    width: -5%;
-    margin: 5px;
-    padding: 5px 5px 5px 5px;
-    display: block;
-    
-
+.parr {
+    display: flex;
+    flex-direction: row; /* Coloca la imagen y el texto en una fila */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si es necesario */
 }
+
+.parr img {
+    width: 50%; /* La imagen ocupará el 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.parr p {
+    flex: 1; /* El texto ocupará el espacio restante */
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .parr {
+        flex-direction: column; /* En pantallas pequeñas, los elementos se colocan en columna */
+        text-align: center; /* Centra el texto */
+    }
+
+    .parr img {
+        width: 100%; /* La imagen ocupará el ancho completo del contenedor */
+        margin-right: 0; /* Elimina el margen cuando está en columna */
+        margin-bottom: 20px; /* Añade margen inferior para separación del texto */
+    }
+
+    .parr p {
+        font-size: 1em;
+    }
+}
+
+
 
 
 
