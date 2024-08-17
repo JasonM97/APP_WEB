@@ -1,16 +1,11 @@
 
-body {
-    position: relative;
-    height: 120%;
-    
-}
+
 
 body {
     background-color: white;
     font-family: Helvetica Neue, Helvetica;
     font-size: 14px;
     color: black;
-    margin: 50px;
     padding: 0;
 }
 

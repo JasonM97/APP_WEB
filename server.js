@@ -1,9 +1,10 @@
 const express = require('express');
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
-
 const app = express();
+
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // Configurar la conexión a la base de datos
 const db = mysql.createConnection({
@@ -33,6 +34,11 @@ app.post('/submit-form', (req, res) => {
         res.send('Datos guardados correctamente');
     });
 });
+
+// Ruta para enviar los productos a la base de datos
+app.post('/comprar' , ( req, res ) => {
+    
+})
 
 // Iniciar el servidor
 app.listen(3000, () => {

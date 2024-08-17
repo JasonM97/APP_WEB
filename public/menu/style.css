@@ -2,14 +2,12 @@
 /* --------------CSS MENU PRINCIPAL  ---------------- */ 
 
 body{
-background-image: url("");
 background-size: cover;
 background-repeat: no-repeat;
-
-
+margin: 0;
 }
 
-.titulo{
+h1{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif; 
 font-size: 40px;
@@ -19,16 +17,17 @@ text-shadow: 1px 2px 2px black, 0 0 25px blue, 00 5px blue;
 
 
 header{
-background-position: 0cm;
-display: flexbox;
+display: flex;
+flex-direction: column;
 justify-content: center;
 font-family: Arial, Helvetica, sans-serif; 
-
+background-image: url("https://img.freepik.com/vector-premium/fondo-peluqueria-perros-peluqueria-peluqueria-perros-tienda-mascotas-ilustracion-vectorial_195968-414.jpg");
+background-size: 100%;
 }
 
 /* COLOR BARRA DE LAS PESTAÑAS*/
 .nav{
-    background-color: blueviolet;
+    background-color: transparent;
 }
 
 /* COLORES DE LAS PESTAÑAS*/
@@ -41,15 +40,16 @@ justify-content: space-evenly;
 /* COLORES DE LAS PESTAÑAS*/
 .nav li a {
 font-size: 20px;
-background-color: blueviolet;
-color: white;
+background-color: transparent;
+color: rgb(0, 0, 0);
+font-weight: 900;
 text-decoration: none;
-padding: 20px 20px 20px 10px;
+padding: 10px 20px 10px 20px;
 display: flex;
 }
 
 /* COLOR DE SOMBREADO DE LAS PESTAÑAS*/ 
-.nav ul li :hover{
+.nav ul li:hover{
 background-color: rgb(197, 153, 238);
 }
 
@@ -66,6 +66,7 @@ display: none;
     white-space: nowrap;
     min-width: auto;
     width: auto;
+    z-index: 2;
 }
 ul .submenu{
     display: flex;
