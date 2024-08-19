@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 // const db = mysql.createConnection({
 //     host: 'localhost',
 //     user: 'root',
-//     password: 'Tsuki1904',
+//     password: 'root',
 //     database: 'formulario_contacto'
 // });
 

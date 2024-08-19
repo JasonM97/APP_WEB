@@ -13,12 +13,18 @@ body {
 
 /* Contenedor principal del formulario */
 .container {
-    max-width: 600px;
+    max-width: 100%;
     margin: 0 auto;
     background: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    width: 55%;
+}
+
+.bodyC{
+    display: flex;
+    align-items: center;
 }
 
 /* Estilo para el título del formulario */
