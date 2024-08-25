@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardin Botanico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+
+        <div class="menu container">
+
+            <a href="#" class="logo">
+                <img src="imagenes/logo.png" alt="Jardín Botánico Logo">
+            </a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#plantas">Nuestras</a></li>
+                    <li><a href="#video">Descubre</a></li>
+                    <li><a href="#visitanos">Comunicate</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="header-content container">
+
+            <div class="header-txt">
+                
+                <h1><br>Jardin <br> Botanico</h1>
+                <p>
+                    Nuestro Jardín Botánico es un oasis de paz y belleza natural, dedicado a la conservación y exhibición de una vasta colección 
+                    de plantas de todas partes del mundo. Aquí, la biodiversidad se encuentra al alcance de todos, ofreciendo a los visitantes 
+                    la oportunidad de aprender sobre la importancia de cada especie en su entorno natural. Ya sea para admirar las coloridas flores, 
+                    conocer plantas medicinales, o simplemente disfrutar de un paseo entre la naturaleza, nuestro jardín ofrece un espacio donde la ciencia, 
+                    la educación y la naturaleza se unen en perfecta armonía.
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+
+            <div class="header-img">
+                <a href="https://www.facebook.com/?locale=es_LA">
+                    <img src="images/r1.svg" alt="Facebook">
+                </a>
+                <a href="https://x.com/home?lang=en">
+                    <img src="images/r2.svg" alt="X">
+                </a>
+                <a href="https://www.linkedin.com/feed/">
+                    <img src="images/r3.svg" alt="Linkedin">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="images/r4.svg" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="plantas container" id="plantas">
+        <h2>Nuestras Plantas</h2>
+        <p>
+            En nuestro jardín botánico, cada planta cuenta una historia de biodiversidad y conservación. 
+            Desde exóticas especies tropicales hasta variedades autóctonas, nuestro jardín ofrece un refugio para plantas de todo el mundo. 
+            Es un espacio donde la naturaleza se despliega en toda su gloria, permitiendo a los visitantes explorar la increíble diversidad del reino vegetal. 
+            Al recorrer nuestros senderos, descubrirás cómo cada planta contribuye al equilibrio ecológico, mientras disfrutas de un entorno diseñado para inspirar 
+            y educar sobre la importancia de la conservación de la flora.
+        </p>
+        <div class="planta-content">
+            <div class="plantas-1">
+                <div class="plantas-txt">
+                    <h3>ORQUIDEA</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="plantas-2">
+                <div class="plantas-txt">
+                    <h3>ROSALES</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="plantas-3">
+                <div class="plantas-txt">
+                    <h3>FUGSIAS</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="plantas-4">
+                <div class="plantas-txt">
+                    <h3>CARNIVORA</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="video" id="video">
+        <div class="video-content container">
+            <div class="video-1">
+                <h2>Descubre cada planta de nuestro jardin</h2>
+                <p>
+                    Explora la riqueza y diversidad de nuestro jardín, donde cada planta cuenta una historia única. 
+                    Desde los majestuosos árboles que se alzan hacia el cielo hasta las delicadas flores que embellecen nuestros senderos, 
+                    cada rincón de nuestro jardín revela la maravilla del mundo natural. Aquí, podrás aprender sobre las características, 
+                    los usos y la importancia ecológica de cada especie, mientras disfrutas de un entorno diseñado para inspirar y educar. 
+                    Ven y descubre la magia de la naturaleza en cada hoja, pétalo y raíz.
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+            <div class="video-2">
+                <video class="v1" autoplay loop muted>
+                    <source src="videos/v1.mp4" type="video/mp4">
+                </video>
+                <video class="v2" autoplay loop muted>
+                    <source src="videos/v2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bg" id="visitanos">
+            <h2>Visitanos</h2>
+            <form>
+                <div class="campo-1">
+                    <input class="campo" type="text" placeholder="Nombre">
+                    <input class="campo" type="number" placeholder="Telefono">
+                </div>
+                <div class="campo-1">
+                    <input class="campo" type="text" placeholder="Direccion">
+                    <input class="campo" type="email" placeholder="Correo">
+                </div>
+                <textarea class="campo" cols="30" rows="10" placeholder="Texto"></textarea>
+                <input type="submit" class="btn-1" value="Enviar">
+            </form>
+        </div>
+        <div class="footer-txt">
+            <p>© 2024 Jardín Botánico de Quito. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

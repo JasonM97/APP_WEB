@@ -1,5 +1,6 @@
 {
     "vscode-pets.petColor": "white",
     "vscode-pets.petSize": "large",
-    "vscode-pets.throwBallWithMouse": true
+    "vscode-pets.throwBallWithMouse": true,
+    "liveServer.settings.port": 5501
 }
